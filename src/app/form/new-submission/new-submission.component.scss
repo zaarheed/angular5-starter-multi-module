@@ -1,0 +1,12 @@
+form {
+    margin-top: 15px;
+}
+
+label.required:before {
+    content: "*";
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 1;
+}

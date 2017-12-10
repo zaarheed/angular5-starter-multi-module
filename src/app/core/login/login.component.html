@@ -1,0 +1,9 @@
+<form class="form-signin">
+  <h2>Login</h2>
+  <label for="username" class="sr-only">Username</label>
+  <input type="text" required autofocus id="username" #username placeholder="Username/Email" />
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" class="form-control" required autofocus id="password" #password placeholder="Password" />
+  <button type="button" (click)="login(username.value, password.value)">Login</button>
+</form>
+      
