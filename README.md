@@ -15,3 +15,10 @@ You can run a local demo by cloning this repo, running `ng serve` and then point
 
 # Documentation
 Coming soon!
+
+# Features
+- Multi-module architecture using Angular CLI conventions
+- Core module, Shared module, 1x public module, 1x private module
+- HTTP/API interceptor example
+- Authentication guard example
+- Shared directive example
