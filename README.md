@@ -11,7 +11,7 @@ A starter template for Angular 5 applications with multiple modules.
 # Demo
 Coming soon!
 
-You can run a local demo by cloning this repo, running `ng serve` and then pointing your browser to `http://localhost:4200`.
+You can run a local demo by cloning this repo, running `npm install`, `ng serve` and then pointing your browser to `http://localhost:4200`.
 
 # Documentation
 Coming soon!
