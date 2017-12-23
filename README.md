@@ -9,7 +9,7 @@ A starter template for Angular 5 applications with multiple modules.
 - Typescript v2.4.2
 
 # Demo
-Coming soon!
+View a demo of the application [here](https://zuperm4n.github.io/angular5-starter-multi-module)
 
 You can run a local demo by cloning this repo, running `npm install`, `ng serve` and then pointing your browser to `http://localhost:4200`.
 
@@ -22,3 +22,8 @@ Coming soon!
 - HTTP/API interceptor example
 - Authentication guard example
 - Shared directive example
+
+# Updating the demo
+1. Install angular-cli-ghpages by running the command `npm install -g angular-cli-ghpages`
+2. Build the Angular app and set the base-href by running the command: `ng build --prod --base-href "https://zuperm4n.github.io/angular5-starter-multi-module"`
+3. Deploy to GitHub.io by running the `angular-cli-ghpages` tool (shorthand: `ngh`)
