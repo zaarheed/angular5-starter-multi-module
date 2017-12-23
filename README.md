@@ -9,12 +9,12 @@ A starter template for Angular 5 applications with multiple modules.
 - Typescript v2.4.2
 
 # Demo
-View a demo of the application [here](https://zuperm4n.github.io/angular5-starter-multi-module)
+View a demo of the application [here](https://zuperm4n.github.io/angular5-starter-multi-module).
 
 You can run a local demo by cloning this repo, running `npm install`, `ng serve` and then pointing your browser to `http://localhost:4200`.
 
 # Documentation
-Coming soon!
+Read more about the architecture [here](https://www.technouz.com/4644/angular-5-app-structure-multiple-modules/).
 
 # Features
 - Multi-module architecture using Angular CLI conventions
