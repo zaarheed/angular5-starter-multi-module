@@ -43,6 +43,31 @@ For a more detailed explanation on the architectural decisions made in this desi
 - Authentication guard example
 - Shared directive example
 
+# Upgrading to Angular 6
+I have created a separate [GitHub repo for an Angular 6 Multi-Module Starter](https://github.com/zuperm4n/angular6-starter-multi-module/pull/1) for those who want a fresh template with the latest features (NgRx, feature toggles etc).
+
+The steps below will allow you to upgrade any projects based from this starter template:
+
+1. Switch from `HttpModule` and the `Http` service to `HttpClientModule` and the `HttpClient` service.
+
+2. Make sure you are using Node 8 or later.
+
+3. Update your Angular CLI globally and locally, and migrate the configuration to the new `angular.json` format by running the following:
+
+    ```
+    npm install -g @angular/cli
+    npm install @angular/cli
+    ng update @angular/cli
+    ```
+
+4. Update all of your Angular framework packages to v6, and the correct version of RxJS and TypeScript.
+
+    ```
+    ng update @angular/core
+    ````
+
+5. Use `ng update` or your normal package manager tools to identify and update other dependencies.
+
 # Updating the demo
 1. Install angular-cli-ghpages by running the command `npm install -g angular-cli-ghpages`
 2. Build the Angular app and set the base-href by running the command: `ng build --prod --base-href "https://zuperm4n.github.io/angular5-starter-multi-module"`
