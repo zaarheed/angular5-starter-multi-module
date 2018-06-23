@@ -55,18 +55,13 @@ The steps below will allow you to upgrade any projects based from this starter t
 3. Update your Angular CLI globally and locally, and migrate the configuration to the new `angular.json` format by running the following:
 
     ```
-    npm install -g @angular/cli
-    npm install @angular/cli
+    npm install @angular/cli@latest --save-dev
     ng update @angular/cli
     ```
 
-4. Update all of your Angular framework packages to v6, and the correct version of RxJS and TypeScript.
+    You can also run `npm install -g @angular/cli@latest` (with the global flag) if preferred. I still mostly work with Angular 5 so I did not update my global Angular CLI.
 
-    ```
-    ng update @angular/core
-    ````
-
-5. Use `ng update` or your normal package manager tools to identify and update other dependencies.
+4. Use `ng update` or your normal package manager tools to identify and update other dependencies.
 
 # Updating the demo
 1. Install angular-cli-ghpages by running the command `npm install -g angular-cli-ghpages`
