@@ -44,7 +44,7 @@ For a more detailed explanation on the architectural decisions made in this desi
 - Shared directive example
 
 # Upgrading to Angular 6
-I have created a separate [GitHub repo for an Angular 6 Multi-Module Starter](https://github.com/zuperm4n/angular6-starter-multi-module/pull/1) for those who want a fresh template with the latest features (NgRx, feature toggles etc).
+I have created a separate [GitHub repo for an Angular 6 Multi-Module Starter](https://github.com/zuperm4n/angular6-starter-multi-module) for those who want a fresh template with the latest features (NgRx, feature toggles etc).
 
 The steps below will allow you to upgrade any projects based from this starter template:
 
