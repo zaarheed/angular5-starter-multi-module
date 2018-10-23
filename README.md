@@ -9,7 +9,7 @@ A starter template for Angular 5 applications with multiple modules.
 - Typescript v2.4.2
 
 # Demo
-View a demo of the application [here](https://zuperm4n.github.io/angular5-starter-multi-module).
+View a demo of the application [here](https://zaarheed.github.io/angular5-starter-multi-module).
 
 You can run a local demo by cloning this repo, running `npm install`, `ng serve` and then pointing your browser to `http://localhost:4200`.
 
@@ -44,7 +44,7 @@ For a more detailed explanation on the architectural decisions made in this desi
 - Shared directive example
 
 # Upgrading to Angular 6
-I have created a separate [GitHub repo for an Angular 6 Multi-Module Starter](https://github.com/zuperm4n/angular6-starter-multi-module) for those who want a fresh template with the latest features (NgRx, feature toggles etc).
+I have created a separate [GitHub repo for an Angular 6 Multi-Module Starter](https://github.com/zaarheed/angular6-starter-multi-module) for those who want a fresh template with the latest features (NgRx, feature toggles etc).
 
 The steps below will allow you to upgrade any projects based from this starter template:
 
@@ -65,5 +65,5 @@ The steps below will allow you to upgrade any projects based from this starter t
 
 # Updating the demo
 1. Install angular-cli-ghpages by running the command `npm install -g angular-cli-ghpages`
-2. Build the Angular app and set the base-href by running the command: `ng build --prod --base-href "https://zuperm4n.github.io/angular5-starter-multi-module"`
+2. Build the Angular app and set the base-href by running the command: `ng build --prod --base-href "https://zaarheed.github.io/angular5-starter-multi-module"`
 3. Deploy to GitHub.io by running the `angular-cli-ghpages` tool (shorthand: `ngh`)
